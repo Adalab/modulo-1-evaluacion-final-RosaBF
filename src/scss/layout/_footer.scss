@@ -1,0 +1,35 @@
+.footer-container {
+  background-color: #304268;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text-link {
+  color: white;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+
+.links-menu1 {
+  width: 73px;
+  padding-top: 73px;
+}
+
+.links-menu2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.copy-date {
+  display: flex;
+  flex-direction: column;
+}
+
+.final-text {
+  padding-bottom: 45px;
+}
