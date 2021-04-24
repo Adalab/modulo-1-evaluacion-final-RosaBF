@@ -1,3 +1,45 @@
+// INSOMNIA TIPS SECTION//
+.section-1 {
+  padding: 30px 15px 45px 15px;
+  line-height: 30px;
+}
+
+.tips {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #8ccbea;
+  padding-bottom: 1px;
+}
+
+.looking {
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+.text01 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #4a4a4a;
+  padding-bottom: 30px;
+}
+
+.go-button {
+  display: inline;
+  background-color: white;
+  border-radius: 22.5px;
+  border: 3px solid #f26002;
+  color: #f26002;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 45px;
+  padding: 0;
+  width: 75px;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
 //3 REASONS SECTION//
 .wrapper-reasons {
   background-color: #eff9ff;
@@ -6,14 +48,13 @@
   grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
   grid-gap: 2px;
   text-align: center;
+  padding-bottom: 60px;
 }
 
 .item0 {
   grid-column: 1/4;
   grid-row: 1/2;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 30px;
+  padding: 30px 15px 50px 15px;
   font-family: "Roboto Slab", serif;
 }
 
@@ -43,7 +84,6 @@
 }
 
 .item {
-  padding-bottom: 30px;
   line-height: 30px;
 }
 
@@ -52,4 +92,21 @@
 }
 .textArticle {
   font-family: "Roboto", sans-serif;
+  padding-bottom: 45px;
+}
+
+.reasons-button {
+  display: inline;
+  background-color: #f26002;
+  border-radius: 22.5px;
+  border: 3px solid #f26002;
+  color: white;
+  font-size: 1rem;
+  line-height: 45px;
+  padding: 0;
+  width: 124px;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 }

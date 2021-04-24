@@ -8,6 +8,20 @@
   align-items: center;
   text-align: center;
 }
+.scrollup-arrow {
+  width: 45px;
+  height: 45px;
+  border-radius: 22px;
+  background-color: white;
+  position: relative;
+  transform: translate(0px, -25px);
+}
+.arrow {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  transform: translate(0, -6px);
+}
 
 .text-link {
   color: white;
@@ -17,7 +31,7 @@
 
 .links-menu1 {
   width: 73px;
-  padding-top: 73px;
+  padding-top: 40px;
 }
 
 .links-menu2 {
@@ -29,7 +43,14 @@
   display: flex;
   flex-direction: column;
 }
+.date {
+  padding-bottom: 10px;
+}
 
 .final-text {
   padding-bottom: 45px;
+  font-size: 14px;
+}
+.heart {
+  color: red;
 }
