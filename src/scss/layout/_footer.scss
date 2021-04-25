@@ -7,9 +7,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
 
   @media all and (min-width: 768px) {
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: left;
     text-align: left;
     justify-content: space-between;
@@ -17,7 +18,7 @@
   }
 
   @media all and (min-width: 1200px) {
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
     text-align: left;
     justify-content: space-around;
@@ -29,23 +30,27 @@
   height: 45px;
   border-radius: 22px;
   background-color: $sometextsColor;
-  position: relative;
-  transform: translate(0px, -25px);
+  position: absolute;
+  top: 0;
+  left: 42%;
+  transform: translate(-0%, -50%);
 
   @media all and (min-width: 768px) {
-    position: relative;
-    transform: translate(-340px, -135px);
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   @media all and (min-width: 1200px) {
-    position: relative;
-    transform: translate(-450px, -135px);
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 .arrow {
   display: flex;
   justify-content: center;
-  position: relative;
+  position: absolute;
   transform: translate(0, -6px);
 }
 
@@ -58,16 +63,25 @@
 .links-menu1 {
   width: 73px;
   padding-top: 40px;
+  @media all and (min-width: 768px) {
+    order: 2;
+  }
 }
 
 .links-menu2 {
   padding-top: 30px;
   padding-bottom: 30px;
+  @media all and (min-width: 768px) {
+    order: 3;
+  }
 }
 
 .copy-date {
   display: flex;
   flex-direction: column;
+  @media all and (min-width: 768px) {
+    order: 1;
+  }
 }
 .date {
   padding-bottom: 10px;

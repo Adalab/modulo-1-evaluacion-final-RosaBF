@@ -9,7 +9,7 @@
   color: $sometextsColor;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   text-align: center;
   align-items: center;
 }
@@ -25,12 +25,6 @@
   padding: 14px;
 }
 
-.title-container {
-  @media all and (min-width: 768px) {
-    padding-top: 250px;
-  }
-}
-
 .title1 {
   width: 290px;
   text-transform: capitalize;
@@ -40,13 +34,11 @@
     width: 690px;
     font-size: 80px;
     line-height: 106px;
-    margin-top: 384px;
   }
   @media all and (min-width: 1200px) {
     width: 730px;
     font-size: 100px;
     line-height: 132px;
-    margin-top: 384px;
   }
 }
 
@@ -55,7 +47,6 @@
   font-size: 16px;
   @media all and (min-width: 768px) {
     font-size: 24px;
-    margin-top: 20px;
   }
   @media all and (min-width: 1200px) {
     font-size: 24px;
@@ -67,13 +58,14 @@
   height: 45px;
   border-radius: 22px;
   background-color: $sometextsColor;
-  position: relative;
-  transform: translate(0px, 50px);
+  margin-top: 30px;
+  margin-bottom: 53px;
+
   @media all and (min-width: 768px) {
     margin-bottom: 45px;
   }
   @media all and (min-width: 1200px) {
-    margin-bottom: 200px;
+    margin-bottom: 13px;
   }
 }
 
