@@ -1,20 +1,46 @@
 .footer-container {
-  background-color: #304268;
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  background-color: $footerColor;
+  color: $sometextsColor;
+  font-family: $normalTexts;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  @media all and (min-width: 768px) {
+    flex-direction: row-reverse;
+    align-items: left;
+    text-align: left;
+    justify-content: space-between;
+    padding: 39px;
+  }
+
+  @media all and (min-width: 1200px) {
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+    padding: 39px;
+  }
 }
 .scrollup-arrow {
   width: 45px;
   height: 45px;
   border-radius: 22px;
-  background-color: white;
+  background-color: $sometextsColor;
   position: relative;
   transform: translate(0px, -25px);
+
+  @media all and (min-width: 768px) {
+    position: relative;
+    transform: translate(-340px, -135px);
+  }
+
+  @media all and (min-width: 1200px) {
+    position: relative;
+    transform: translate(-450px, -135px);
+  }
 }
 .arrow {
   display: flex;
@@ -24,7 +50,7 @@
 }
 
 .text-link {
-  color: white;
+  color: $sometextsColor;
   text-transform: uppercase;
   line-height: 30px;
 }
