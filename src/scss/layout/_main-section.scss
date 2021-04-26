@@ -15,7 +15,7 @@
 }
 
 .looking {
-  font-family: "Roboto Slab", serif;
+  font-family: $titlesText;
   font-size: 24px;
   padding-bottom: 15px;
 }
@@ -34,10 +34,11 @@
   border: 3px solid $buttonsOrange;
   color: $buttonsOrange;
   text-align: center;
-  font-size: 1.5rem;
-  line-height: 45px;
+  font-size: 20px;
+  font-family: $normalTexts;
   padding: 0;
   width: 100px;
+  height: 45px;
   &:hover {
     transform: scale(1.2);
   }
@@ -118,7 +119,7 @@
   border-radius: 22.5px;
   border: 3px solid $buttonsOrange;
   color: $sometextsColor;
-  font-size: 1rem;
+  font-size: 20px;
   line-height: 45px;
   width: 200px;
   margin: auto;
