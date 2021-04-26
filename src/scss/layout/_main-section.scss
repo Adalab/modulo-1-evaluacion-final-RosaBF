@@ -39,8 +39,11 @@
   padding: 0;
   width: 100px;
   height: 45px;
+  transition: transform 1s color 2s;
+
   &:hover {
     transform: scale(1.2);
+    color: blueviolet;
   }
 }
 
@@ -123,8 +126,10 @@
   line-height: 45px;
   width: 200px;
   margin: auto;
+  transition: transform 1s color 2s;
   &:hover {
     transform: scale(1.2);
+    color: blueviolet;
   }
   @media all and (min-width: 768px) {
     width: 200px;
